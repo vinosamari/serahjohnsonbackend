@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/live-alerts",
+      "handler": "live-alerts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/live-alerts/count",
+      "handler": "live-alerts.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/live-alerts/:id",
+      "handler": "live-alerts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/live-alerts",
+      "handler": "live-alerts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/live-alerts/:id",
+      "handler": "live-alerts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/live-alerts/:id",
+      "handler": "live-alerts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
