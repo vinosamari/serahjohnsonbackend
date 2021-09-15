@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/live-alerts",
-      "handler": "live-alerts.find",
+      "path": "/newsletters",
+      "handler": "newsletter.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/live-alerts/count",
-      "handler": "live-alerts.count",
+      "path": "/newsletters/count",
+      "handler": "newsletter.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/live-alerts/:id",
-      "handler": "live-alerts.findOne",
+      "path": "/newsletters/:id",
+      "handler": "newsletter.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/live-alerts",
-      "handler": "live-alerts.create",
+      "path": "/newsletters",
+      "handler": "newsletter.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/live-alerts/:id",
-      "handler": "live-alerts.update",
+      "path": "/newsletters/:id",
+      "handler": "newsletter.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/live-alerts/:id",
-      "handler": "live-alerts.delete",
+      "path": "/newsletters/:id",
+      "handler": "newsletter.delete",
       "config": {
         "policies": []
       }

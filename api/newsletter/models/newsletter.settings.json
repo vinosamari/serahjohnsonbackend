@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "live_alerts",
+  "collectionName": "newsletters",
   "info": {
-    "name": "liveAlerts"
+    "name": "newsletter"
   },
   "options": {
     "increments": true,
